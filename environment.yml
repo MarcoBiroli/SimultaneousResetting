@@ -1,0 +1,35 @@
+name: SimultaneousResetting
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=openblas
+  - bzip2=1.0.8=h620ffc9_4
+  - ca-certificates=2023.01.10=hca03da5_0
+  - libcxx=14.0.6=h848a8c0_0
+  - libffi=3.4.2=hca03da5_6
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
+  - libllvm11=11.1.0=h12f7ac0_6
+  - libopenblas=0.3.21=h269037a_0
+  - llvm-openmp=14.0.6=hc6e5704_0
+  - llvmlite=0.39.1=py310h98b2900_0
+  - ncurses=6.4=h313beb8_0
+  - numba=0.56.4=py310h46d7db6_0
+  - numpy=1.23.5=py310hb93e574_0
+  - numpy-base=1.23.5=py310haf87e8b_0
+  - openssl=1.1.1t=h1a28f6b_0
+  - pip=23.0.1=py310hca03da5_0
+  - python=3.10.10=hc0d8a6c_2
+  - readline=8.2=h1a28f6b_0
+  - setuptools=66.0.0=py310hca03da5_0
+  - sqlite=3.41.2=h80987f9_0
+  - tbb=2021.8.0=h48ca7d4_0
+  - tk=8.6.12=hb8d0fd4_0
+  - tzdata=2023c=h04d1e81_0
+  - wheel=0.38.4=py310hca03da5_0
+  - xz=5.2.10=h80987f9_1
+  - zlib=1.2.13=h5a0b063_0
+  - pip:
+    - numba-progress==0.0.4
+    - tqdm==4.65.0
+prefix: /Users/mbiroli/anaconda3/envs/SimultaneousResetting
