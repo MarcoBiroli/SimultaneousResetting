@@ -1,6 +1,6 @@
 # SimultaneousResetting
 
-This repository contains the code to replicate the results obtained in the paper [Exact order, gap and counting statistics of a Brownian gas correlated by resetting](https://arxiv.org/abs/2211.00563). The file `utils.py` contains all the methods used to simulate the stochastic processes. The file `compute_all.py` can be run to iteratively call the `compute` function define in `utils.py` with all possible parameter combinations. For example running
+This repository contains the code to replicate the results obtained in the papers [Exact order, gap and counting statistics of a Brownian gas correlated by resetting](https://arxiv.org/abs/2211.00563) and [Critical number of walkers for diffusive search processes with resetting](https://arxiv.org/abs/2303.18012). The file `utils.py` contains all the methods used to simulate the stochastic processes. The file `compute_all.py` can be run to iteratively call the `compute` function define in `utils.py` with all possible parameter combinations. For example running
 
 `bash% python compute_all.py --N 1 2 3 4 5 6 7 8 9 --sim 0 1 --r 0.1 1 10`
 
